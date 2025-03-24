@@ -6,7 +6,7 @@
 // console.log(2 != 1);
 
 // console.log("2" > 1);
-// console.log("02" > 1);
+//console.log("02" > 1);
 
 console.log(null > 0);      //The reason is that an equality check == and
 console.log(null == 0);     //comparison > < >= <= work differently
