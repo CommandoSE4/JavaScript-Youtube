@@ -57,10 +57,54 @@ const users =
     },
 ]
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+//++++++++++++++ JSON, API Talk +++++++++++++++//
+
+const course =
+{
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor} = course  (can write aswell)
+const {courseInstructor: Instructor} = course   //object de-structured
+
+// console.log(Instructor);
+
+
+/*  REACT
+const navbar = ({company}) =>
+{
+
+}
+
+navbar(company = "Avinash")
+*/
+            // JSON
+// {
+//     "courseInstructor": "Hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free",
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
+        //API
+// https://api.github.com/users/hiteshchoudhary        
+// RandomUserMe API
+// JSON Formatter
